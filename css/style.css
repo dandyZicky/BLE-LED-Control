@@ -1,0 +1,120 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 1em 1em;
+    margin: 1em 15em;
+    background-color: #151515;
+    color: #D8DEE9;
+    min-width: 50rem;
+}
+
+/* Upper section (Connect BLE & LED OFF Buttons) */
+.upper-bar {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em 1em;
+    max-width: 120rem;
+}
+
+.upper-bar:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.split-half {
+    float:left;
+    width: 50%;
+}
+
+.right {
+    text-align: right;
+    width: 40%;
+}
+
+.left {
+    text-align: left;
+    width: 50%;
+    padding-left: 5%;
+}
+
+.style-ble-button {
+    width: 2rem;
+    height: 2rem;
+}
+
+.style-ble-button:hover {
+    opacity: 0.5;
+}
+
+.style-ble-label, .style-off-label{
+    font-size: xx-large;
+    font-weight: bold;
+    padding-left: 0.4em;
+    pointer-events: none;
+    height: 40em;
+}
+
+.style-off-button {
+    width: 2rem;
+    height: 2rem;
+}
+
+.style-off-button:hover {
+    opacity: 0.5;
+}
+
+/* Control Bar */
+.control {
+    background-color: #222831;
+    border-radius: 1.5em;
+    max-height: 40rem;
+    min-height: max-content;
+    padding-bottom: 3rem;
+}
+
+.control:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.split-third {
+    float: left;
+    width: 19.333%;
+    padding-left: 7%;
+    padding-right: 7% ;
+}
+
+/* Control unit */
+.led-panel {
+    text-align: left;
+}
+
+.color-picker {
+    text-align: center;
+}
+
+.brightness {
+    text-align: right;
+}
+
+.slider-box {
+    width: 65%;
+}
+
+.brightness-slider {
+    -webkit-appearance: slider-vertical;
+    width: 1em;
+    height: 25rem;
+    opacity: 1;
+}
+
+.brightness-slider:hover {
+    opacity: 0.8;
+}
+
+.pickr .pcr-button{
+    height: 7rem !important;
+    width: 7rem !important;
+}
